@@ -34,6 +34,7 @@ An financial assistant for helping user in personal financial management. Basica
 
 ## Warning:
 - If you run the app on macos locally, you should disable `pysqlite3-binary` from requirements.txt file before running pip install.
+- GPT-4 cost is insane, just give some tries to get to know how it works. The cost-effective and optimized agent will be pushed in next versions.
 
 ## Running
 ```shell
@@ -44,3 +45,9 @@ streamlit run app.py
 - GPT-4 tokens consume
 - OpenAI Embedding
 - Additional services quota: SERPER, Amplitude, LangChain Smith
+
+## Next Plans
+- OpenAI 3.5-turbo with Multi-Agents
+- Cost-effective prompt
+- Optimize cache
+- Speed up Agent execution
